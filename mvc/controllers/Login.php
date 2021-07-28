@@ -63,7 +63,7 @@ class Login extends Controller{
     public function Logout(){
         unset($_SESSION['username']);
         session_destroy();
-        setcookie( "username", "", time()- 900, "/","", 0);
+        setcookie( "token", "", time()- 900, "/","", 0);
         $this->view("login", [
             
         ]);
