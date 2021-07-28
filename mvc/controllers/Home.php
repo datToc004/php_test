@@ -1,6 +1,6 @@
 <?php
 
-// http://localhost/live/Home/Show/1/2
+
 require_once "./mvc/validates/FilmValidate.php";
 
 class Home extends Controller{
